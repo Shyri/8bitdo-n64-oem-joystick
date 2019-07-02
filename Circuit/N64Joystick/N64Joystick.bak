@@ -1,0 +1,27 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Potentiometer_Digital:X9C103S U1
+U 1 1 5D09A112
+P 5200 3350
+F 0 "U1" H 5200 4031 50  0000 C CNN
+F 1 "X9C103S" H 5200 3940 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4900 3600 50  0001 C CNN
+F 3 "" H 4900 3600 50  0001 C CNN
+	1    5200 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
