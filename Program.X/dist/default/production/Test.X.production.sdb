@@ -1,0 +1,64 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F675 ]
+[d frameptr 6 ]
+"10 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v2.05/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"36 /Users/shyri/MPLABXProjects/Test.X/main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"60
+[v _calibrate calibrate `(v  1 e 1 0 ]
+"89
+[v _main main `(v  1 e 1 0 ]
+"564 /Applications/microchip/xc8/v2.05/pic/include/pic12f675.h
+[v _CMCON CMCON `VEuc  1 e 1 @25 ]
+"643
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"797
+[v _TRISIO TRISIO `VEuc  1 e 1 @133 ]
+"1404
+[v _ANSEL ANSEL `VEuc  1 e 1 @159 ]
+"1573
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"1603
+[v _GPIE GPIE `VEb  1 e 0 @91 ]
+"1606
+[v _GPIF GPIF `VEb  1 e 0 @88 ]
+"1609
+[v _GPIO0 GPIO0 `VEb  1 e 0 @40 ]
+"1612
+[v _GPIO1 GPIO1 `VEb  1 e 0 @41 ]
+"1615
+[v _GPIO2 GPIO2 `VEb  1 e 0 @42 ]
+"1621
+[v _GPIO4 GPIO4 `VEb  1 e 0 @44 ]
+"1624
+[v _GPIO5 GPIO5 `VEb  1 e 0 @45 ]
+"1642
+[v _IOC2 IOC2 `VEb  1 e 0 @1202 ]
+"89 /Users/shyri/MPLABXProjects/Test.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"106
+} 0
+"60
+[v _calibrate calibrate `(v  1 e 1 0 ]
+{
+"79
+[v calibrate@i_48 i `i  1 a 2 7 ]
+"69
+[v calibrate@i i `i  1 a 2 5 ]
+"87
+} 0
+"36
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"58
+} 0
