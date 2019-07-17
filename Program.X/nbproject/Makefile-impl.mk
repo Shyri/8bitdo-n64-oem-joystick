@@ -24,14 +24,14 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Test.X
+PROJECTNAME=Program.X
 
 # Active Configuration
-DEFAULTCONF=default
+DEFAULTCONF=x_axis
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=default 
+ALLCONFS=x_axis y_axis 
 
 
 # build
@@ -45,13 +45,15 @@ ALLCONFS=default
 
 # clobber
 .clobber-impl: .clobber-pre .depcheck-impl
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=x_axis clean
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=y_axis clean
 
 
 
 # all
 .all-impl: .all-pre .depcheck-impl
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=x_axis build
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=y_axis build
 
 
 

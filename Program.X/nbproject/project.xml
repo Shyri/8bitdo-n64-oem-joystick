@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>Test</name>
+            <name>N64Joystick</name>
             <creation-uuid>fa265a31-21a3-49c3-8aef-61f21f6db8ca</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
@@ -15,7 +15,11 @@
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>default</name>
+                    <name>x_axis</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>y_axis</name>
                     <type>2</type>
                 </confElem>
             </confList>

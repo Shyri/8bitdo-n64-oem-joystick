@@ -35,7 +35,12 @@
 
 void __interrupt () isr (void) {
     if(GPIF == 1) {
-        if(GPIO1 == GPIO2) {
+        #ifdef X_AXIS
+            if(GPIO1 != GPIO2) {
+        #endif
+        #ifdef Y_AXIS
+            if(GPIO1 == GPIO2) {
+        #endif
             GPIO0 = 0;
             GPIO5 = 0;
             GPIO4 = 0;
