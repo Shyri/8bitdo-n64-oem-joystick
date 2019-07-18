@@ -23,7 +23,7 @@ I decided to put them one of each of the sides of the controller, they fit very 
 <img src="images/3.jpg?raw=true" width="500">
 <img src="images/4.jpg?raw=true" width="500">
 
-I had to adapt the case a little bit to fit but nothing to hard, and this is the final result:
+I had to adapt the case a little bit to fit but nothing too hard, and this is the final result:
 
 <img src="images/5.jpg?raw=true" width="500">
 <img src="images/6.jpg?raw=true" width="500">
