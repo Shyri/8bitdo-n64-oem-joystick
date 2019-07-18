@@ -1,9 +1,9 @@
 # 8bitdo-n64-oem-joystick
-Use original N64 joystick with 8bitdo N64 retro controller and turn an original N64 controller into bluetooth.
+Use original N64 joystick with 8bitdo N64 retro controller circuit board and turn an original N64 controller into a bluetooth gamepad.
 
-So I wanted to play N64 emulator with a wireless N64 controller. I bought 8bitdo's N64 bluetooth replica and although it is quite good, having spend my childhood playing N64 I can tell it doesn't feel the same. Thanks to [this guy](https://www.instructables.com/id/8bitdo-OEM-Wireless-N64-Controller/) I learned you can fit 8bitdo's controller board into an original N64 controller's case, and use original buttons. That was an improvement but I really wanted to experience the 100% original N64 experience. So I built this in order to replace 8bitdo's joystick based on two 10k potentiometers by the original N64 joystic, and this is the process:
+I wanted to play N64 emulator with a wireless N64 controller. I bought 8bitdo's N64 bluetooth replica and although it is quite good, having spent my childhood playing N64 I can tell it doesn't feel the same. Thanks to [this guy](https://www.instructables.com/id/8bitdo-OEM-Wireless-N64-Controller/) I learned you can fit 8bitdo's controller board into an original N64 controller's case, and use original buttons. That was an improvement but I really wanted to have 100% original N64 experience. So I built this in order to replace 8bitdo's joystick based on two 10k potentiometers by the original N64 joystick, and this is the process:
 
-So N64 joystick signals are two linear encoders. Each axis has to signals, I and Q. Basically whenever I is high you should read Q, if Q is the same voltage level as I it means the joystick is going in one direction. If the voltage level is the opposite, the joystick is moving in the other direction. To know what direction you just have to find out testing.
+N64 joystick signals come from two linear encoders. Each axis has to signals, I and Q. Long story short, whenever I is high you should read Q, if Q is the same level as I it means the joystick is going in one direction. If the voltage level is the opposite, the joystick is moving in the other direction. To know what direction corresponds each case you just have to find out testing. I only triggers if the joystick is moving.
 
 This is how you would see that signal in an oscilloscope:
 
